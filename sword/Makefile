@@ -65,7 +65,7 @@ combine-css:
 build-assets:
 	$(CLI) compile asset
 	packr2 clean
-	packr2
+	#packr2
 
 # turn golang template files into a go file.
 # 将所有golang模板文件(.tmpl)合并为一个golang文件
